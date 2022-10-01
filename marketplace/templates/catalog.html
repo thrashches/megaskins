@@ -1,0 +1,107 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <title>MegaSkins - Торговая площадка</title>
+    <meta name="description"
+          content="Торговая площадка Counter-Strike: Global Offensive - покупайте и продавайте скины CS:GO моментально и с гарантией, выводите деньги на онлайн кошельки и банковские карты!"/>
+    <meta name="keywords"
+          content="Торговая площадка Counter-Strike: Global Offensive - покупайте и продавайте скины CS:GO моментально и с гарантией, выводите деньги на онлайн кошельки и банковские карты!"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"/>
+    <link rel="shortcut icon" href="{% static 'assets/images/favicon.ico' %}" type="image/x-icon"/>
+    <!-- <link rel="stylesheet" href="fonts/stylesheet.css" /> -->
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css.css' %}"/>
+    <script src="{% static 'widget.js' %}" data-jv-id="tWjBSslpSU" async=""></script>
+</head>
+<body>
+<div class="page">
+    <div class="main_out">
+        <header>
+            <div class="content">
+                <div class="left">
+                    <div class="desc">
+                        <h5 style="color: #fff;">
+                            <b>Торговая площадка CS GO</b>
+                        </h5>
+                    </div>
+                </div>
+                <div class="right">
+                    <a href="#" class="mob_b"><span></span></a>
+                    <ul>
+                        <li><a href="{% url 'index' %}">Главная</a></li>
+                        <li><a href="index.html#about">О нас</a></li>
+
+                        <li><a href="{% url 'catalog' %}">Каталог</a></li>
+                        <li><a href="accord.html">Cоглашение</a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li>
+                            <a href="https://store.steampowered.com/" style="color: rgb(218, 255, 11);"><b>АВТОРИЗАЦИЯ
+                                ЧЕРЕЗ STEAM </b></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+
+                    <div class="center">
+
+
+                            {% for product in object_list %}
+                                {% cycle '<br><br><div class="market-items" id="applications">' '' '' '' '' '' '' %}
+                                {#                                {% if forloop.counter % 7 == 0 %}#}
+                                {##}
+                                {#                                {% endif %}#}
+                                <a class="item hot" href="{% url 'order_create' product.id %}">
+                                    <div class="imageblock review">
+                                        <div class="image"
+                                             style="background-image: url({{ product.image.url }});"></div>
+                                        <div class="price">{{ product.price }} руб.</div>
+                                    </div>
+
+                                    <div class="name" style="color: #000000;">
+                                        {{ product.name }}
+                                    </div>
+                                </a>
+                                {% cycle '' '' '' '' '' '' '</div>' %}
+                            {% endfor %}
+
+
+
+                    </div>
+
+                    <footer>
+
+
+                        <h1 style="text-align: center;"><br><br>
+                            <img src="/media/img/cards.png" width="60%" alt="">
+                        </h1>
+                        <span style="font-size: 10px; color: #fff; padding:5px; text-align: center; ">
+            Данные Вашей платежной карты гарантировано защищены в соответствии
+            со стандартами безопасности PCI DSS. Данные карты вводятся на
+            защищенной банковской платежной странице, передача информации происходит с
+            применением технологии шифрования SSL. Дальнейшая передача информации
+            происходит по закрытым банковским сетям, имеющим наивысший уровень
+            надежности. Для дополнительной аутентификации Держателя карты используется
+            протокол 3D-Secure для VISA и Mastercard и протокол EMV 3DS (Mir Accept 2.0)
+            для карт МИР. Если Эмитент поддерживает данную технологию,
+            Вы будете перенаправлены на его сервер для ввода дополнительных
+            реквизитов платежа. Для протокола EMV 3DS (Mir Accept 2.0) может
+            отсутствовать отдельная страница для ввода дополнительной информации
+            для подтверждения платежа в случае выполнения автоматизированной
+            аутентфикации на стороне эмитента карты."
+
+        </span>
+                        <h1></h1>
+                    </footer>
+                </div>
+
+                <script src="{% static 'jquery-3.3.1.min.js' %}"></script>
+
+                <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

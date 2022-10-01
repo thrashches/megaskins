@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Glock-18 | Wasteland Rebel (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "249",
+    "image": "img/1.webp"
+  },
+  {
+    "name": "M4A4 | Desolate Space (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "265.79",
+    "image": "img/2.webp"
+  },
+  {
+    "name": "USP-S | \u041f\u043e\u0431\u0435\u043b\u043a\u0430 (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "206",
+    "image": "img/3.webp"
+  },
+  {
+    "name": "M4A4 | Neo-Noir (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "253.46",
+    "image": "img/4.webp"
+  },
+  {
+    "name": "Glock-18 | \u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0430 \u043f\u0443\u043b\u044c (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "315.79",
+    "image": "img/5.webp"
+  },
+  {
+    "name": "M4A4 | \u0412 \u0436\u0438\u0432\u043e\u043c \u0446\u0432\u0435\u0442\u0435 (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "308.99",
+    "image": "img/6.webp"
+  },
+  {
+    "name": "Glock-18 | \u041d\u0435\u043e\u043d\u0443\u0430\u0440 (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "327.97",
+    "image": "img/7.webp"
+  },
+  {
+    "name": "Glock-18 | \u0414\u0443\u0445 \u0432\u043e\u0434\u044b (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "237",
+    "image": "img/8.webp"
+  },
+  {
+    "name": "AK-47 | \u0421\u043b\u0430\u043d\u0435\u0446 (\u041f\u043e\u043d\u043e\u0448\u0435\u043d\u043d\u043e\u0435)",
+    "price": "225",
+    "image": "img/9.webp"
+  },
+  {
+    "name": "P90 | \u0410\u0437\u0438\u043c\u043e\u0432 (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "385.08",
+    "image": "img/10.webp"
+  },
+  {
+    "name": "AK-47 | Point Disarray (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "588.71",
+    "image": "img/11.webp"
+  },
+  {
+    "name": "M4A4 | Desolate Space (\u041f\u043e\u043d\u043e\u0448\u0435\u043d\u043d\u043e\u0435)",
+    "price": "239",
+    "image": "img/12.webp"
+  },
+  {
+    "name": "MAC-10 | \u041d\u0435\u043e\u043d\u043e\u0432\u044b\u0439 \u0433\u043e\u043d\u0449\u0438\u043a (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "317.99",
+    "image": "img/13.webp"
+  },
+  {
+    "name": "Desert Eagle | \u041c\u0435\u0445\u0430\u043d\u043e-\u043f\u0443\u0448\u043a\u0430 (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "219.49",
+    "image": "img/14.webp"
+  },
+  {
+    "name": "Glock-18 | Vogue (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "208.89",
+    "image": "img/15.webp"
+  },
+  {
+    "name": "P250 | \u041f\u0440\u043e\u0449\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0441\u043a\u0430\u043b (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "207.49",
+    "image": "img/16.webp"
+  },
+  {
+    "name": "USP-S | Blueprint (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "298",
+    "image": "img/17.webp"
+  },
+  {
+    "name": "AK-47 | \u0421\u043b\u0430\u043d\u0435\u0446 (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "247.88",
+    "image": "img/18.webp"
+  },
+  {
+    "name": "\u041e\u0445\u043e\u0442\u043d\u0438\u0447\u0438\u0439 \u043e\u0440\u0443\u0436\u0435\u0439\u043d\u044b\u0439 \u043a\u0435\u0439\u0441",
+    "price": "300",
+    "image": "img/19.webp"
+  },
+  {
+    "name": "USP-S | Neo-Noir (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "668.65",
+    "image": "img/20.webp"
+  },
+  {
+    "name": "AK-47 | \u0421\u043b\u0430\u043d\u0435\u0446 (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "235.55",
+    "image": "img/21.webp"
+  },
+  {
+    "name": "AWP | Fever Dream (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "440",
+    "image": "img/22.webp"
+  },
+  {
+    "name": "M4A1-S | \u0425\u0440\u0443\u0441\u0442\u0430\u043b\u044c (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "348.99",
+    "image": "img/23.webp"
+  },
+  {
+    "name": "M4A4 | \u0412 \u0436\u0438\u0432\u043e\u043c \u0446\u0432\u0435\u0442\u0435 (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "371.99",
+    "image": "img/24.webp"
+  },
+  {
+    "name": "USP-S | Cortex (\u041d\u0435\u043c\u043d\u043e\u0433\u043e \u043f\u043e\u043d\u043e\u0448\u0435\u043d\u043d\u043e\u0435)",
+    "price": "230",
+    "image": "img/25.webp"
+  },
+  {
+    "name": "AWP | Fever Dream (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "452.37",
+    "image": "img/26.webp"
+  },
+  {
+    "name": "AK-47 | \u0421\u043d\u0435\u0436\u043d\u044b\u0439 \u0432\u0438\u0445\u0440\u044c (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "796.31",
+    "image": "img/27.webp"
+  },
+  {
+    "name": "M4A4 | \u0418\u043c\u043f\u0435\u0440\u0430\u0442\u043e\u0440 (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "602.4",
+    "image": "img/28.webp"
+  },
+  {
+    "name": "AK-47 | \u0421\u043b\u0430\u043d\u0435\u0446 (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "228.03",
+    "image": "img/29.webp"
+  },
+  {
+    "name": "AK-47 | Legion of Anubis (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "571.65",
+    "image": "img/30.webp"
+  },
+  {
+    "name": "M4A1-S | Nightmare (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "453.11",
+    "image": "img/31.webp"
+  },
+  {
+    "name": "M4A4 | Neo-Noir (\u041f\u043e\u043d\u043e\u0448\u0435\u043d\u043d\u043e\u0435)",
+    "price": "294.99",
+    "image": "img/32.webp"
+  },
+  {
+    "name": "AK-47 | \u0424\u0430\u043d\u0442\u043e\u043c\u043d\u044b\u0439 \u0432\u0440\u0435\u0434\u0438\u0442\u0435\u043b\u044c (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "334",
+    "image": "img/33.webp"
+  },
+  {
+    "name": "AK-47 | \u0424\u0430\u043d\u0442\u043e\u043c\u043d\u044b\u0439 \u0432\u0440\u0435\u0434\u0438\u0442\u0435\u043b\u044c (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "402.34",
+    "image": "img/34.webp"
+  },
+  {
+    "name": "Glock-18 | \u0414\u0443\u0445 \u0432\u043e\u0434\u044b (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "236",
+    "image": "img/35.webp"
+  },
+  {
+    "name": "Desert Eagle | \u041e\u043a\u0435\u0430\u043d\u0441\u043a\u043e\u0435 \u043f\u043e\u0431\u0435\u0440\u0435\u0436\u044c\u0435 (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "563.51",
+    "image": "img/36.webp"
+  },
+  {
+    "name": "SSG 08 | Dragonfire (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "632.5",
+    "image": "img/37.webp"
+  },
+  {
+    "name": "Desert Eagle | \u041c\u0435\u0445\u0430\u043d\u043e-\u043f\u0443\u0448\u043a\u0430 (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "235.71",
+    "image": "img/38.webp"
+  },
+  {
+    "name": "M4A1-S | \u0425\u0440\u0443\u0441\u0442\u0430\u043b\u044c (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "348.99",
+    "image": "img/39.webp"
+  },
+  {
+    "name": "M4A4 | Buzz Kill (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "342.7",
+    "image": "img/40.webp"
+  },
+  {
+    "name": "AK-47 | \u0417\u0430\u0449\u0438\u0442\u043d\u0430\u044f \u0441\u0435\u0442\u043a\u0430 (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "318.99",
+    "image": "img/41.webp"
+  },
+  {
+    "name": "USP-S | \u041f\u0440\u0435\u0434\u0430\u0442\u0435\u043b\u044c (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "760",
+    "image": "img/42.webp"
+  },
+  {
+    "name": "AK-47 | \u041a\u0440\u0430\u0441\u043d\u0430\u044f \u043b\u0438\u043d\u0438\u044f (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "655.63",
+    "image": "img/43.webp"
+  },
+  {
+    "name": "M4A4 | Desolate Space (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "320",
+    "image": "img/44.webp"
+  },
+  {
+    "name": "SSG 08 | \u041f\u043b\u0430\u043c\u044f \u0434\u0440\u0430\u043a\u043e\u043d\u0430 (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "636.99",
+    "image": "img/45.webp"
+  },
+  {
+    "name": "M4A4 | Tooth Fairy (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "337.91",
+    "image": "img/46.webp"
+  },
+  {
+    "name": "M4A1-S | \u0412\u0442\u043e\u0440\u043e\u0439 \u0438\u0433\u0440\u043e\u043a (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "952.64",
+    "image": "img/47.webp"
+  },
+  {
+    "name": "StatTrak\u2122 USP-S | Cortex (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "248.91",
+    "image": "img/48.webp"
+  },
+  {
+    "name": "AK-47 | Nightwish (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "907.85",
+    "image": "img/49.webp"
+  },
+  {
+    "name": "Desert Eagle | Code Red (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "950",
+    "image": "img/50.webp"
+  },
+  {
+    "name": "M4A4 | Tooth Fairy (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "309.73",
+    "image": "img/51.webp"
+  },
+  {
+    "name": "M4A4 | \u041a\u043e\u0430\u043b\u0438\u0446\u0438\u044f (\u0417\u0430\u043a\u0430\u043b\u0451\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "474",
+    "image": "img/52.webp"
+  },
+  {
+    "name": "Desert Eagle | \u0417\u0430\u0433\u043e\u0432\u043e\u0440 (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "268.98",
+    "image": "img/53.webp"
+  },
+  {
+    "name": "M4A1-S | Decimator (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "603.99",
+    "image": "img/54.webp"
+  },
+  {
+    "name": "M4A1-S | \u041e\u0433\u043e\u043d\u044c \u0427\u0430\u043d\u0442\u0438\u043a\u043e (\u0417\u0430\u043a\u0430\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0431\u043e\u044f\u0445)",
+    "price": "810.56",
+    "image": "img/55.webp"
+  },
+  {
+    "name": "USP-S | Neo-Noir (\u041f\u043e\u0441\u043b\u0435 \u043f\u043e\u043b\u0435\u0432\u044b\u0445 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0439)",
+    "price": "926.32",
+    "image": "img/56.webp"
+  }
+]

@@ -1,0 +1,360 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <title>MegaSkins - Торговая площадка</title>
+    <meta name="description"
+          content="Торговая площадка Counter-Strike: Global Offensive - покупайте и продавайте скины CS:GO моментально и с гарантией, выводите деньги на онлайн кошельки и банковские карты!"/>
+    <meta name="keywords"
+          content="Торговая площадка Counter-Strike: Global Offensive - покупайте и продавайте скины CS:GO моментально и с гарантией, выводите деньги на онлайн кошельки и банковские карты!"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"/>
+    <link rel="shortcut icon" href="{% static 'assets/images/favicon.ico' %}" type="image/x-icon"/>
+    <!-- <link rel="stylesheet" href="fonts/stylesheet.css" /> -->
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}"/>
+    <script src="{% static 'widget.js' %}" data-jv-id="tWjBSslpSU" async=""></script>
+</head>
+<body>
+<div class="page">
+    <div class="main_out">
+        <header>
+            <div class="content">
+                <div class="left">
+                    <div class="desc">
+                            <span style="color: #fff; ">
+                                <b>Торговая площадка CS GO</b>
+                            </span>
+
+                    </div>
+                </div>
+                <div class="right">
+                    <a href="#" class="mob_b"><span></span></a>
+                    <ul>
+                        <li><a href="{% url 'index' %}">Главная</a></li>
+                        <li><a href="#about">О нас</a></li>
+
+                        <li><a href="{% url 'catalog' %}">Каталог</a></li>
+                        <li><a href="accord.html">Cоглашение</a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li>
+                            <a href="https://store.steampowered.com/" style="color: rgb(218, 255, 11);"><b>АВТОРИЗАЦИЯ
+                                ЧЕРЕЗ STEAM </b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="main" id="main">
+            <div class="content">
+                <div class="left">
+                    <div class="best">
+                        <img src="{% static 'assets/images/best.png' %}"/>
+                        <div class="best_line">
+                            <a href="{% url 'catalog' %}" class="by"><span>КУПИТЬ СЕЙЧАС</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="{% static 'assets/images/main_right.png' %}"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="content">
+            <p class="block_name" id="about">О НАС</p>
+            <h2>О НАС</h2>
+            <p class="desc">
+                        <span>
+                            <a href="{% url 'index' %}" style="color: rgb(200, 255, 0);"> <b>MegaSkins</b></a>
+                        </span>
+                - работает по принципу биржи: все предложения о продаже и покупке формируются нашими пользователями.
+                Пользователям гарантированно предлагается самый выгодный из вариантов покупки и продажи. Система не
+                гарантирует,
+                что после совершения сделки не появится более выгодное предложение.
+            </p>
+            <p class="name">Что это значит?</p>
+            <p class="text" style="z-index: 999;">
+                Пользователь может продать любой предмет, находящийся в его инвентаре. Выставление предмета на продажу
+                не приводит к потере предмета из инвентаря, а лишь указывает на то, что вы хотите продать этот предмет.
+                <a href="info.html" style="color: rgb(200, 255, 0); z-index: 999;">
+                    <span><b>Подробно ...</b></span>
+                </a>
+            </p>
+            <a href="info.html">
+                <div class="af_1"></div>
+                <div class="af_2"></div>
+                <div class="af_3"></div>
+                <div class="af_4"></div>
+            </a>
+        </div>
+    </div>
+    <div class="by_items">
+        <div class="content">
+            <p class="block_name" id="by_items">НОВИНКИ</p>
+            <h2>НОВИНКИ</h2>
+            <div class="items">
+                <div class="item">
+                    <p class="name">M4A4 | Neo-Noir</p>
+                    <div class="price_line">
+                        <div class="price">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <p class="val">241.38</p>
+                            <p class="text">руб</p>
+                            <a href="{% url 'catalog' %}" class="by">Купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="name">AK-47 | Снежный вихрь</p>
+                    <div class="price_line">
+                        <div class="price">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <p class="val">561.97</p>
+                            <p class="text">руб</p>
+                            <a href="{% url 'catalog' %}" class="by">Купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="name">Desert Eagle | Code Red</p>
+                    <div class="price_line">
+                        <div class="price">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <p class="val">906.52</p>
+                            <p class="text">руб</p>
+                            <a href="{% url 'catalog' %}" class="by">Купить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="func_out">
+        <div class="func" id="func">
+            <div class="content">
+                <p class="block_name">ОБЗОР</p>
+                <h2>ОБЗОР</h2>
+                <div class="items">
+                    <div class="item">
+                        <img src="{% static 'assets/images/func_1.png' %}"/>
+                        <p class="name">Как продать?</p>
+                        <p class="val">Рекомендуем использовать программу market app
+                            Она автоматически настраивает ваш аккаунт для продажи вещей на маркете, создает АПИ ключ
+                            стима, если его нет и привязывает его к маркету для корректной проверки статуса переданных
+                            предметов.</p>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'assets/images/func_2.png' %}" style="margin-left: 12px;"/>
+                        <p class="name">Покупка невозможна</p>
+                        <p class="val">Если вы столкнулись с такой проблемой при покупке вещи - напишите в поддержку
+                            сайта, указав ссылку на предмет который не получается купить</p>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'assets/images/func_3.png' %}"/>
+                        <p class="name">Ошибка</p>
+                        <p class="val">У вас скорее всего имеется временная блокировка трейда на аккаунте.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="review" data-scroll-index="1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="review_title section-title" data-scroll-index="1">
+                            <h2>Популярные</h2>
+                            <div class="decoration"></div>
+                        </div>
+                        <div class="review_video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TjX07A8lFoo"
+                                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="review_title section-title">
+                            <h2>Valve</h2>
+                            <div class="decoration"></div>
+                        </div>
+                        <div class="review_video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/r9NycFrJJcc"
+                                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="bottom-video">
+                            <div class="review_title section-title">
+                                <h2>Переспектива</h2>
+                                <div class="decoration"></div>
+                            </div>
+                            <div class="review_video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/vjLDF4YqFc8"
+                                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="preim">
+        <div class="preim">
+            <div class="content">
+                <p class="block_name" id="preim">МЫ ЛУЧШИЕ</p>
+                <h2>ПРЕИМУЩЕСТВА</h2>
+                <div class="items">
+                    <div class="item">
+                        <div class="left"></div>
+                        <div class="right">
+                            <p class="name">Каждому свое</p>
+                            <p class="val">Каждый пользователь может выбрать вариант для себя. Мы дали вам большой
+                                ассортимент скинов, мы учли ВАШИ пожелания.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="left"></div>
+                        <div class="right">
+                            <p class="name">Уникальность</p>
+                            <p class="val">Скин продается только в одни руки.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="left"></div>
+                        <div class="right">
+                            <p class="name">Цена Качество</p>
+                            <p class="val">Мы отдаем по самым минимальным ценам!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="left"></div>
+                        <div class="right">
+                            <p class="name">Круглосуточная поддержка</p>
+                            <p class="val">В нашем саппорте дежурят 2 человека, которые помогут вам в любое время дня и
+                                ночи!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="left"></div>
+                        <div class="right">
+                            <p class="name">Безопасность</p>
+                            <p class="val">Продажа происходит через защещенные соеденения.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="left"></div>
+                        <div class="right">
+                            <p class="name">Своевременные обновления</p>
+                            <p class="val">После обновления базы скинов они отобразятся автоматически в нашем
+                                каталоге</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="af_1"></div>
+            <div class="af_2"></div>
+            <div class="af_3"></div>
+        </div>
+    </div>
+    <div class="faq_out">
+        <div class="faq">
+            <div class="content">
+                <p class="block_name" id="faq_out">ОТВЕТЫ на все</p>
+                <h2>ЧАСТО ЗАДАВАЕМЫЕ <br><br>ВОПРОСЫ</h2>
+                <div class="items">
+                    <div class="item">
+                        <div class="top">
+                            <p>Почему выгодно брать у нас?</p>
+                            <div class="right"></div>
+                        </div>
+                        <div class="bot">
+                            <p>У большинства предметов, выставляемых пользователями на продажу, цена ниже, чем в
+                                магазине Steam.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="top">
+                            <p>Как долго происходит покупка?</p>
+                            <div class="right"></div>
+                        </div>
+                        <div class="bot">
+                            <p>Обмен занимает считанные секунды, если не забывать руководствоваться нашими <a
+                                    href="info.html" style="color: rgb(129, 255, 103);"> правилами</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contacts">
+            <div class="content">
+                <p class="block_name">КОНТАКТЫ</p>
+                <h2>СВЯЗАТЬСЯ С <br><br>НАМИ</h2>
+                <p class="desc">Мы ответим на все ваши вопросы!</p>
+
+                <div class="item mail"><span>Почта:</span> <a
+                        href="mailto:info@ohmyskins.com">info@ohmyskins.com</a><br><a
+                        href="organization.html">Реквизиты</a></div>
+
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <footer>
+        <div class="content">
+
+
+            <h3 style="color: rgb(0, 255, 42); ">Важные ссылки</h3>
+            <ul class="list">
+
+                <li><a href="conditionality.html">Политика конфиденциальности</a></li>
+                <li><a href="ordering.html">Оформление заказа</a></li>
+                <li><a href="payment.html">Оплата товаров</a></li>
+
+                <li><a href="return.html">Возврата товара / Отказ от услуги</a></li>
+                <li><a href="accord.html">Публичная оферета</a></li>
+            </ul>
+            <br><br>
+            <p style="color: rgb(255, 251, 0); ">MegaSkins © 2022</p>
+        </div>
+
+        <h1 style="text-align: center;">
+            <img src="img/cards.png" width="60%" alt="">
+        </h1>
+        <span style="font-size: 10px; color: #fff; padding:5px; text-align: center; ">
+            Данные Вашей платежной карты гарантировано защищены в соответствии
+            со стандартами безопасности PCI DSS. Данные карты вводятся на
+            защищенной банковской платежной странице, передача информации происходит с
+            применением технологии шифрования SSL. Дальнейшая передача информации
+            происходит по закрытым банковским сетям, имеющим наивысший уровень
+            надежности. Для дополнительной аутентификации Держателя карты используется
+            протокол 3D-Secure для VISA и Mastercard и протокол EMV 3DS (Mir Accept 2.0)
+            для карт МИР. Если Эмитент поддерживает данную технологию,
+            Вы будете перенаправлены на его сервер для ввода дополнительных
+            реквизитов платежа. Для протокола EMV 3DS (Mir Accept 2.0) может
+            отсутствовать отдельная страница для ввода дополнительной информации
+            для подтверждения платежа в случае выполнения автоматизированной
+            аутентфикации на стороне эмитента карты."
+
+        </span>
+        <h1></h1>
+    </footer>
+</div>
+
+<script src="jquery-3.3.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>

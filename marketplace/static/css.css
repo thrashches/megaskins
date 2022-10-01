@@ -1,0 +1,199 @@
+small:before {
+    content: "p";
+}
+
+.market-items {
+    padding: 15px 0 0;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.market-items:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.market-items .item {
+    position: relative;
+    display: inline-block;
+    /* float: left; */
+    width: 100px;
+    height: 83px;
+    margin: 11px 13px 0 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    cursor: pointer;
+}
+
+.market-items .item .imageblock {
+    width: 100px;
+    height: 66px;
+    position: relative;
+    overflow: visible;
+    -webkit-border-top-right-radius: 2px;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-topleft: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #f1f1f1 url(/images/common/icons_common.png?104) no-repeat -666px -152px;
+}
+
+.market-items .item .image {
+    width: 100%;
+    height: 100%;
+    -webkit-border-top-right-radius: 2px;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-topleft: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: transparent;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.market-items .item .price {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100px;
+    height: 30px;
+    padding: 14px 0 0px 4px;
+    background: transparent;
+    color: #ffed9c;
+    font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-size: 15px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5), 0 -1px 1px rgba(0, 0, 0, 0.5), 1px 0 1px rgba(0, 0, 0, 0.5), -1px 0 1px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+.market-items .item .price small {
+    font-size: 13px;
+    margin-left: 1px;
+}
+
+.market-items .item .price small:before {
+    content: "o";
+}
+
+.market-items .item .name {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    width: 100%;
+    color: #2a2a2a;
+    background-color: rgba(238, 238, 238, 0.9);
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    -moz-border-radius-topleft: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 3px 3px;
+    font-family: Tahoma, "Segoe UI", Arial, sans-serif;
+    font-size: 10px;
+    line-height: 11px;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.market-items .item .name:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    z-index: 1;
+    background: transparent url(/images/common/icons_common.png?104) no-repeat -666px -51px;
+}
+
+.market-items .item.hot .name {
+    background-color: rgba(255, 239, 163, 0.9);
+}
+
+.market-items .item.hot .name:after {
+    background-position: -678px -51px;
+}
+
+.market-items .item.hot .price:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: transparent url(/images/common/icons_common.png?104) no-repeat -666px 0;
+    width: 30px;
+    height: 30px;
+}
+
+.market-items .item:hover .image {
+  opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+
+.market-items .item:hover .name {
+    white-space: normal;
+    font-size: 11px;
+    line-height: 1.2em;
+    z-index: 10;
+}
+
+.market-items .item:hover .name:after {
+    display: none;
+}
+
+.market-items .item:active .image {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.market-items#applications .item:nth-child(7n+7) {
+    margin-right: 0;
+}
