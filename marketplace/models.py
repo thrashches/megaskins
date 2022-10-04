@@ -41,9 +41,15 @@ class Order(models.Model):
         return f'{self.id} {self.status}'
 
     @property
-    def price(self):
-        return self.product.price
+    def amount(self):
+        """
+        Свойство, возвращающее цену в копейках для Payler
+        """
+        return int(self.product.price * 100)
 
     @property
     def description(self):
+        """
+        Свойство, возвращающее название товара для Payler
+        """
         return self.product.name

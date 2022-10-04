@@ -5,10 +5,34 @@
     <title>Создание заказа</title>
 </head>
 <body>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Перейти к оплате</button>
-    </form>
+{#    <form method="post">#}
+{#        {% csrf_token %}#}
+{#        {{ form.as_p }}#}
+{#        <button type="submit">Перейти к оплате</button>#}
+{#    </form>#}
+    <a href="{{ payment_url }}?session_id={{ session_id }}">Перейти к оплате</a>
+    <script type="text/javascript">
+        {#const startSessionUrl = "{{ start_session_url }}";#}
+        {#const orderData = {#}
+        {#    key: "{{ key }}",#}
+        {#    order_id: {{ order.id }},#}
+        {#    amount: {{ order.amount }},#}
+        {#    type: "OneStep",#}
+        {#    session_type: 0,#}
+        {#    product: "{{ product.name }}",#}
+        {#    lang: "ru"#}
+        {#};#}
+        {#fetch(startSessionUrl, {#}
+        {#    method: 'POST',#}
+        {#    body: orderData#}
+        {#})#}
+        {#.then((response) => {#}
+        {#    response.json();#}
+        {#})#}
+        {#.then((data) => {#}
+        {#    console.log(data);#}
+        {#})#}
+
+    </script>
 </body>
 </html>
